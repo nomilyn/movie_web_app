@@ -1,18 +1,17 @@
 import {Link} from "react-router-dom";
 
-const TVShow = ({id,title,poster}) => {
-
-    const alternative_text= `${title} Poster `;
-
+const TVShow = ({id, title, poster}) => {
+    const alternative_text = `${title} Poster `;
     const imagePath = `/images/${poster}`;
+
     return (
-        <div className="tv-card">
+        <div className = "tv-card">
             
            <Link to = {"/tv-shows/"+id}>
-                <img src={imagePath} alt={alternative_text}/>   
+                <img src = {imagePath} alt = {alternative_text}/>   
             </Link> 
 
-            <div className="movie-tvshow-title"> {title} </div>
+            <div className = "movie-tvshow-title"> {title} </div>
         </div>
     )
 }

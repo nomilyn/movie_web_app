@@ -16,7 +16,6 @@ import Footer from "../components/Footer";
 import Navbar from "./Navbar/Navbar";
 
 import '../assets/css/App.css'
-import "../assets/css/utilities.css"
 
 const App = () => {
   const [movies, setMovies] = useState([]); 

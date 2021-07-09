@@ -13,15 +13,15 @@ const TVShowDescription = ()=> {
        setTVShow(tvShowsData);
     })
     .catch((error) => {
-         console.log(`Error ${error}`)
+         console.log(`Error : ${error}`)
     }); 
    },[])
 
     return (
-        <section id="movie-tv-details-section">
-            <div className="display-grid-description">
-                <img className="image-description" src={'/images/'+tvShow.poster} alt=""/>            
-                <div className="movie-tv-details-area">
+        <section id = "movie-tv-details-section">
+            <div className = "display-grid-description">
+                <img className = "image-description" src = {'/images/'+tvShow.poster} alt = ""/>            
+                <div className = "movie-tv-details-area">
                     <h3>{tvShow.title}</h3> 
                     <br/>
                     <h4>Description</h4>
@@ -30,6 +30,9 @@ const TVShowDescription = ()=> {
                     <p>${tvShow.priceRent}</p>
                     <h4>Purchase Price</h4>
                     <p>${tvShow.purchasePrice}</p>
+                </div>
+                <div>
+                    <img className = "image-description" src = {'/images/'+tvShow.sPoster} alt = ""/> 
                 </div>
             </div>
         </section>

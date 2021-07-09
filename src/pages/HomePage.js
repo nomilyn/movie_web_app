@@ -1,6 +1,3 @@
-//import Header from "../components/Header";
-//import Footer from "../components/Footer";
-
 import FeaturedMovieList from "../components/FeaturedMovieList";
 import FeaturedTVShowList from "../components/FeaturedTVShowList";
 import Hero from "../components/Hero";
@@ -9,17 +6,17 @@ import SecondContent from "../components/SecondContent";
 
 const HomePage = () => {
     return (
-        <main>
-          <Hero/>
+      <main>
+        <Hero/>
         <hr/>
-          <FeaturedMovieList/>
+        <FeaturedMovieList/>
         <hr/>
-          <FirstContent/>
+        <FirstContent/>
         <hr/>
-          <FeaturedTVShowList/>
+        <FeaturedTVShowList/>
         <hr/>
-          <SecondContent/>
-        </main>
+        <SecondContent/>
+      </main>
     )
 }
 

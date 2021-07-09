@@ -1,12 +1,9 @@
 import React from 'react'
 import {Jumbotron} from 'react-bootstrap';
 
-//import Header from "../components/Header";
-//import Footer from "../components/Footer";
-
 const AboutUsPage = () => {
     return (
-        <div id="container">
+        <div id = "container">
             <main>
             <Jumbotron>
                 <h1>About Us</h1>

@@ -2,7 +2,6 @@ import {useContext, useEffect} from 'react';
 import Movie from "./Movie";
 import MovieContext from "../context/MovieContext";
 
-
 const MovieList = () => {
     const {movies, setMovies} = useContext(MovieContext);
     useEffect(()=>{
@@ -22,7 +21,6 @@ const MovieList = () => {
         <section id = "section-movie-list">
             <div className = "container">
             <h2>List Of All Movies</h2>
-                {/*<div className="grid grid-gap-1 grid-col-6">*/}
                 <div className="display-grid-list">
                     {movies.map(movie=>(<Movie key={movie.id} id={movie.id} title={movie.title} poster={movie.poster} />))}    
                 </div>
