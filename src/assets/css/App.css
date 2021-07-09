@@ -1,0 +1,231 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url("../img/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    overflow:auto;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+img
+{   
+    width:100%;
+}
+
+/*header
+
+header
+{
+    background-color: rgb(3,37,65);
+}
+
+header li
+{
+    display: inline-block;
+    padding:16px 32px;
+}
+
+header li:nth-child(1)
+{
+    padding-left: 0;
+}
+
+header a 
+{
+    color:white;
+    text-transform: capitalize;
+    font-weight:600;
+}
+
+header ul
+{
+    list-style-type: none;
+} */
+
+/*footer*/
+
+footer /*modified*/
+{
+    /*margin-top:0;
+    padding: 0px;*/
+    background-color:darkgreen;
+    width: 100%;
+    text-align: center;
+    color:white;
+    height:95px;
+}
+
+footer li
+{
+    /*display: inline-block;*/
+    display: inline-flex;
+    padding:10px;
+}
+
+footer ul /*added*/
+{
+    text-align: center;
+}
+
+footer li a:hover { /*added*/
+    background-color: white;
+    border-radius: 2px;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+footer li:nth-child(1)
+{
+    padding-left: 0;
+}
+
+footer a 
+{
+    color:white;
+    font-weight:bold;
+}
+
+footer ul
+{
+    list-style-type: none;
+}
+
+/*============================================================================*/
+
+/*Movies and TV Shows*/
+
+#section-movie-list h2, /*modified */
+#section-tv-list h2,
+#section-movie-featured-list h2,
+#section-tv-featured-list h2 
+{
+    font-weight: bold;
+    color:black;
+}
+
+.movie-card /*modified*/
+{
+    border: 1px solid yellow; /*modified*/
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+    background-color: forestgreen;
+    overflow: hidden;
+}
+
+.movie-card  img /*modified*/
+{
+    height:263px;
+    object-fit:scale-down;
+    cursor:pointer;
+    transition:  all 0.5s ease-in-out;
+}
+
+.movie-card:hover img /*modified */
+{
+    border-radius: 100px;
+    transition: all 0.5s ease-in-out;
+    transform: rotate(360deg) scale(.8);
+}
+
+.tv-card /*modified*/
+{
+    border: 1px solid green; /*modified*/
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+    background-color: orangered;
+    overflow: hidden;
+}
+
+.tv-card  img /*modified*/
+{
+    height:263px;
+    object-fit:scale-down;
+    cursor:pointer;
+    transition:  all 0.5s ease-in-out;
+}
+
+.tv-card:hover img /*modified */
+{
+    border-radius: 100px;
+    transition: all 0.5s ease-in-out;
+    transform: rotate(360deg) scale(.8);
+}
+
+.movie-tvshow-title{ /*modified */
+color: white;
+font-size: medium;
+font-weight: bold;
+padding: 5px;
+margin-bottom: 2px;
+text-align: center;
+}
+
+#movie-tv-details-section > div /*modified*/
+{   
+    background: linear-gradient( to bottom, #CFFC03, #53FC03,#FCAC03) !important;
+}
+
+.movie-tv-details-section > img
+{
+    grid-column: 1;
+}
+
+.movie-tv-details-area
+{
+    grid-column: 2/span 4;
+}
+
+.movie-tv-details-area h3 /*added */
+{
+    font-weight: bold;
+    color: orangered;
+}
+
+.movie-tv-details-area h4 /*added */
+{
+    font-weight: bold;
+    color: darkgreen;
+}
+
+/*Contact Us*/
+table.table-contact-us {
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient( to bottom, #CFFC03, #53FC03,#FCAC03) !important;
+}
+
+th h3 {
+    text-align: center;
+}
+
+.contact-area td h4 {
+    color: darkgreen;
+    font-weight: bold;
+}
+.image-description {
+    height:100%;
+    object-fit:scale-down;
+    cursor:pointer;
+    border-radius: 50px;
+}
+
+.image-description:hover {
+    object-fit:cover;
+    transition: all 0.5s ease-in-out;
+    transform: rotate(10deg) scale(.8);
+}
+

@@ -1,0 +1,277 @@
+{
+    "movies": [
+        {
+           "id": 1,
+           "title": "Infinite",
+           "description": "Evan McCauley has skills he never learned and memories of places he has never visited. Self-medicated and on the brink of a mental breakdown, a secret group that call themselves “Infinites” come to his rescue, revealing that his memories are real.",
+           "poster": "movie1_infinite.jpg",
+           "priceRent": 30,
+           "purchasePrice": 85,
+           "isFeaturedMovie": false
+        },
+        {
+           "id": 2,
+           "title": "F9",
+           "description": "Dominic Toretto and his crew battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother.",
+           "poster": "movie2_f9.jpg",
+           "priceRent": 30,
+           "purchasePrice": 77,
+           "isFeaturedMovie": true
+        },
+        {
+           "id": 3,
+           "title": "A Quiet Place PART II",
+           "description": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
+           "poster": "movie3_quiet_place.jpg",
+           "priceRent": 30,
+           "purchasePrice": 78,
+           "isFeaturedMovie": false
+        },
+        {
+           "id": 4,
+           "title": "Luca",
+           "description": "Luca and his best friend Alberto experience an unforgettable summer on the Italian Riviera. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water’s surface.",
+           "poster": "movie4_luca.jpg",
+           "priceRent": 30,
+           "purchasePrice": 82,
+           "isFeaturedMovie": true
+        },
+        {
+           "id": 5,
+           "title": "Godzilla vs. Kong",
+           "description": "In a time when monsters walk the Earth, humanity’s fight for its future sets Godzilla and Kong on a collision course that will see the two most powerful forces of nature on the planet collide in a spectacular battle for the ages.",
+           "poster": "movie5_godzilla.jpg",
+           "priceRent": 30,
+           "purchasePrice": 80,
+           "isFeaturedMovie": false
+        },
+        {
+           "id": 6,
+           "title": "Endangered Species",
+           "description": "Jack Halsey takes his wife, their adult kids, and a friend for a dream vacation in Kenya. But as they venture off alone into a wilderness park, their safari van is flipped over by an angry rhino, leaving them injured and desperate. Then, as two of them go in search of rescue, a bloody, vicious encounter with a leopard and a clan of hyenas incites a desperate fight for survival.",
+           "poster": "movie6_endangered.jpg",
+           "priceRent": 25,
+           "purchasePrice": 66,
+           "isFeaturedMovie": true
+        },
+        {
+           "id": 7,
+           "title": "Fatherhood",
+           "description": "A widowed new dad copes with doubts, fears, heartache and dirty diapers as he sets out to raise his daughter on his own. Inspired by a true story.",
+           "poster": "movie7_fatherhood.jpg",
+           "priceRent": 30,
+           "purchasePrice": 80,
+           "isFeaturedMovie": false
+        },
+        {
+           "id": 8,
+           "title": "Ferry",
+           "description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds his loyalty tested — and a love that alters his life.",
+           "poster": "movie8_ferry.jpg",
+           "priceRent": 25,
+           "purchasePrice": 70,
+           "isFeaturedMovie": true
+        },
+        {
+           "id": 9,
+           "title": "Without Remorse",
+           "description": "An elite Navy SEAL uncovers an international conspiracy while seeking justice for the murder of his pregnant wife.",
+           "poster": "movie9_without_remorse.jpg",
+           "priceRent": 25,
+           "purchasePrice": 72,
+           "isFeaturedMovie": false
+        },
+        {
+           "id": 10,
+           "title": "Spirit Untamed",
+           "description": "Lucky Prescott's life is changed forever when she moves from her home in the city to a small frontier town and befriends a wild mustang named Spirit.",
+           "poster": "movie10_spirit_untamed.jpg",
+           "priceRent": 25,
+           "purchasePrice": 79,
+           "isFeaturedMovie": false
+        },
+        {
+           "id": 11,
+           "title": "Awake",
+           "description": "After a sudden global event wipes out all electronics and takes away humankind’s ability to sleep, chaos quickly begins to consume the world. Only Jill, an ex-soldier with a troubled past, may hold the key to a cure in the form of her own daughter. The question is, can Jill safely deliver her daughter and save the world before she herself loses her mind.",
+           "poster": "movie11_awake.jpg",
+           "priceRent": 20,
+           "purchasePrice": 66,
+           "isFeaturedMovie": false
+        },
+        {
+           "id": 12,
+           "title": "Wrath of Man",
+           "description": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
+           "poster": "movie12_wrath_of_man.jpg",
+           "priceRent": 25,
+           "purchasePrice": 78,
+           "isFeaturedMovie": false
+        },
+        {
+           "id": 13,
+           "title": "Raya and the Last Dragon",
+           "description": "Long ago, in the fantasy world of Kumandra, humans and dragons lived together in harmony. But when an evil force threatened the land, the dragons sacrificed themselves to save humanity. Now, 500 years later, that same evil has returned and it’s up to a lone warrior, Raya, to track down the legendary last dragon to restore the fractured land and its divided people.",
+           "poster": "movie13_raya.jpg",
+           "priceRent": 28,
+           "purchasePrice": 82,
+           "isFeaturedMovie": true
+        },
+        {
+           "id": 14,
+           "title": "Tom & Jerry",
+           "description": "Tom the cat and Jerry the mouse get kicked out of their home and relocate to a fancy New York hotel, where a scrappy employee named Kayla will lose her job if she can’t evict Jerry before a high-class wedding at the hotel. Her solution? Hiring Tom to get rid of the pesky mouse.",
+           "poster": "movie14_tom_and_jerry.jpg",
+           "priceRent": 23,
+           "purchasePrice": 80,
+           "isFeaturedMovie": true
+        },
+        {
+           "id": 15,
+           "title": "Cold Pursuit",
+           "description": "The quiet family life of Nels Coxman, a snowplow driver, is upended after his son's murder. Nels begins a vengeful hunt for Viking, the drug lord he holds responsible for the killing, eliminating Viking's associates one by one. As Nels draws closer to Viking, his actions bring even more unexpected and violent consequences, as he proves that revenge is all in the execution.",
+           "poster": "movie15_cold_pursuit.jpg",
+           "priceRent": 28,
+           "purchasePrice": 82,
+           "isFeaturedMovie": false
+        }
+    ],
+  
+    "tvShows": [
+        {
+           "id": 1,
+           "title": "Elite",
+           "description": "When three working class kids enroll in the most exclusive school in Spain, the clash between the wealthy and the poor students leads to tragedy.",
+           "poster": "tv1_elite.jpg",
+           "priceRent": 25,
+           "purchasePrice": 100,
+           "isFeaturedTVShow": false
+        },
+        {
+           "id": 2,
+           "title": "iCarly",
+           "description": "Ten years after signing off of one of TV's most iconic shows, Carly, Spencer, and Freddie are back, navigating the next chapter of their lives, facing the uncertainties of life in their twenties.",
+           "poster": "tv2_icarly.jpg",
+           "priceRent": 28,
+           "purchasePrice": 90,
+           "isFeaturedTVShow": true
+        },   
+        {
+           "id": 3,
+           "title": "Rick and Morty",
+           "description": "Rick is a mentally-unbalanced but scientifically-gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
+           "poster": "tv3_rick_and_morty.jpg",
+           "priceRent": 20,
+           "purchasePrice": 80,
+           "isFeaturedTVShow": true
+        },  
+        {
+           "id": 4,
+           "title": "The Flash",
+           "description": "After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only 'meta-human' who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won't be long before the world learns what Barry Allen has become...The Flash.",
+           "poster": "tv4_the_flash.jpg",
+           "priceRent": 25,
+           "purchasePrice": 100,
+           "isFeaturedTVShow": false
+        },
+        {
+           "id": 5,
+           "title": "The Good Doctor",
+           "description": "A young surgeon with Savant syndrome is recruited into the surgical unit of a prestigious hospital. The question will arise: can a person who doesn't have the ability to relate to people actually save their lives.",
+           "poster": "tv5_the_good_doctor.jpg",
+           "priceRent": 32,
+           "purchasePrice": 95,
+           "isFeaturedTVShow": true
+        },
+        {
+           "id": 6,
+           "title": "Grey's Anatomy",
+           "description": "Follows the personal and professional lives of a group of doctors at Seattle’s Grey Sloan Memorial Hospital.",
+           "poster": "tv6_greys_anatomy.jpg",
+           "priceRent": 27,
+           "purchasePrice": 98,
+           "isFeaturedTVShow": false
+        },
+        {
+           "id": 7,
+           "title": "Superman and Lois",
+           "description": "After years of facing megalomaniacal supervillains, monsters wreaking havoc on Metropolis, and alien invaders intent on wiping out the human race, The Man of Steel aka Clark Kent and Lois Lane come face to face with one of their greatest challenges ever: dealing with all the stress, pressures and complexities that come with being working parents in today's society.",
+           "poster": "tv7_superman_and_lois.jpg",
+           "priceRent": 27,
+           "purchasePrice": 88,
+           "isFeaturedTVShow": false
+        },
+        {
+           "id": 8,
+           "title": "Riverdale",
+           "description": "tv8_riverdale",
+           "poster": "tv8_riverdale.jpg",
+           "priceRent": 26,
+           "purchasePrice": 92,
+           "isFeaturedTVShow": false
+        },
+        {
+           "id": 9,
+           "title": "Sweet Tooth",
+           "description": "On a perilous adventure across a post-apocalyptic world, a lovable boy who's half-human and half-deer searches for a new beginning with a gruff protector.",
+           "poster": "tv9_sweet_tooth.jpg",
+           "priceRent": 24,
+           "purchasePrice": 85,
+           "isFeaturedTVShow": false
+        },
+        {
+           "id": 10,
+           "title": "The Walking Dead",
+           "description": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+           "poster": "tv10_the_walking_dead.jpg",
+           "priceRent": 28,
+           "purchasePrice": 92,
+           "isFeaturedTVShow": false
+        },
+        {
+           "id": 11,
+           "title": "Legacies",
+           "description": "When three working class kids enroll in the most exclusive school in Spain, the clash between the wealthy and the poor students leads to tragedy.",
+           "poster": "tv11_legacies.jpg",
+           "priceRent": 24,
+           "purchasePrice": 86,
+           "isFeaturedTVShow": true
+        },
+        {
+           "id": 12,
+           "title": "Wanda Vision",
+           "description": "Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect that everything is not as it seems.",
+           "poster": "tv12_wanda_vision.jpg",
+           "priceRent": 25,
+           "purchasePrice": 100,
+           "isFeaturedTVShow": false
+        },
+        {
+           "id": 13,
+           "title": "House",
+           "description": "Dr. Gregory House, a drug-addicted, unconventional, misanthropic medical genius, leads a team of diagnosticians at the fictional Princeton–Plainsboro Teaching Hospital in New Jersey.",
+           "poster": "tv13_house.jpg",
+           "priceRent": 22,
+           "purchasePrice": 80,
+           "isFeaturedTVShow": true
+        },
+        {
+           "id": 14,
+           "title": "I Am...",
+           "description": "Each hour-long film follows a different women as they experience “moments that are emotionally raw, thought-provoking and utterly personal”.",
+           "poster": "tv14_i_am.jpg",
+           "priceRent": 23,
+           "purchasePrice": 82,
+           "isFeaturedTVShow": false
+        },
+        {
+           "id": 15,
+           "title": "Naruto Shippuden",
+           "description": "Naruto Shippuden is the continuation of the original animated TV series Naruto.The story revolves around an older and slightly more matured Uzumaki Naruto and his quest to save his friend Uchiha Sasuke from the grips of the snake-like Shinobi, Orochimaru. After 2 and a half years Naruto finally returns to his village of Konoha, and sets about putting his ambitions to work, though it will not be easy, as He has amassed a few (more dangerous) enemies, in the likes of the shinobi organization; Akatsuki.",
+           "poster": "tv15_naruto_shippuden.jpg",
+           "priceRent": 27,
+           "purchasePrice": 87,
+           "isFeaturedTVShow": true
+        }
+     ]
+  }
