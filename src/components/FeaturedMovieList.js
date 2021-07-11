@@ -6,7 +6,7 @@ const FeaturedMovieList = () => {
     const {movies, setMovies} = useContext(MovieContext);
     
     useEffect(()=>{
-      fetch("http://localhost:5000/movies?isFeaturedMovie=true")
+      fetch("/movies?isFeaturedMovie=true")
       .then((res) => {
         return res.json()
       })

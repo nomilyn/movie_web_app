@@ -5,7 +5,7 @@ import MovieContext from "../context/MovieContext";
 const MovieList = () => {
     const {movies, setMovies} = useContext(MovieContext);
     useEffect(()=>{
-        fetch("http://localhost:5000/movies")
+        fetch("/movies")
         .then((res) => {
           return res.json();
         })

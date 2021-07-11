@@ -6,7 +6,7 @@ const MovieDescription = ()=> {
     const [movie,setMovie] = useState({});
 
     useEffect(()=>{
-    fetch("http://localhost:5000/movies/"+id)
+    fetch("/movies/"+id)
     .then((res) => {
         return res.json();
     })
@@ -14,7 +14,7 @@ const MovieDescription = ()=> {
        setMovie(moviesData);
     })
     .catch((error) => {
-        console.log(`Error ${error}`)
+        console.log(`Error : ${error}`)
     })
     },[])
 

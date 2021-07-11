@@ -5,7 +5,7 @@ import MovieContext from "../context/MovieContext";
 const FeaturedTVShowList = () => {
   const {tvShows, setTVShows} = useContext(MovieContext);    
   useEffect(()=>{
-    fetch("http://localhost:5000/tvShows?isFeaturedTVShow=true")
+    fetch("/tvShows?isFeaturedTVShow=true")
     .then((res) => {
       return res.json()
     })

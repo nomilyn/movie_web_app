@@ -5,7 +5,7 @@ const TVShowDescription = ()=> {
     const {id} = useParams();
     const [tvShow, setTVShow] = useState({});
     useEffect(()=>{
-    fetch("http://localhost:5000/tvShows/"+id)
+    fetch("/tvShows/"+id)
     .then((res) => {
          return res.json();
     })

@@ -7,7 +7,7 @@ const TVShowList = () => {
     const {tvShows, setTVShows} = useContext(MovieContext);   
 
     useEffect(() => {
-      fetch("http://localhost:5000/tvShows")
+      fetch("/tvShows")
       .then((res) => {
         return res.json();
       })
