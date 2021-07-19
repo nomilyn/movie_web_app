@@ -28,9 +28,9 @@ const App = () => {
         <Switch>
           <Route  exact path="/"><HomePage/></Route>
           <Route  exact path="/movies"><MoviesPage/></Route>
-          <Route  path="/movies/:id"><MovieDescriptionPage/></Route>
+          <Route  exact path="/movies/:id"><MovieDescriptionPage/></Route>
           <Route  exact path="/tv-shows"><TVShowsPage/></Route>
-          <Route  path="/tv-shows/:id"><TVShowDescriptionPage/></Route>
+          <Route  exact path="/tv-shows/:id"><TVShowDescriptionPage/></Route>
           <Route  exact path="/sign-up"><SignUpPage/></Route>
           <Route  exact path="/login"><LoginPage/></Route>
           <Route  exact path="/about-us"><AboutUsPage/></Route>
