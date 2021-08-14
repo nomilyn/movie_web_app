@@ -6,7 +6,7 @@ const FeaturedTVShow = ({id, title, poster}) => {
 
     return (
         <div className = "tv-card">
-           <Link to = {"/tv-shows/"+id}>
+           <Link to = {"/tvshows/"+id}>
                 <img src = {imagePath} alt = {alternative_text}/>   
             </Link> 
         </div>

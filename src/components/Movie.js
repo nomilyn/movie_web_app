@@ -15,3 +15,5 @@ const Movie = ({id, title, poster}) => {
 }
 
 export default Movie
+
+

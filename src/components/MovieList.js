@@ -5,12 +5,12 @@ import MovieContext from "../context/MovieContext";
 const MovieList = () => {
     const {movies, setMovies} = useContext(MovieContext);
     useEffect(()=>{
-        fetch("/movies")
+        fetch("http://localhost:5000/movies")
         .then((res) => {
           return res.json();
         })
         .then((moviesData) => {
-          setMovies(moviesData);
+          setMovies(moviesData.body);
         })
         .catch((error) => {
           console.log(`Error ${error}`)

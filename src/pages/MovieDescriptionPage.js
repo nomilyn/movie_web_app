@@ -1,9 +1,9 @@
-import MovieDecription from '../components/MovieDescription';
+import MovieDescription from '../components/MovieDescription';
 
 const MovieDescriptionPage = () => {
     return (
         <main>
-            <MovieDecription/>
+            <MovieDescription/>
         </main>
     )
 }

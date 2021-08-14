@@ -9,7 +9,15 @@ export const MenuList = [
     },
     {
         title: "TV Shows",
-        url: "/tv-shows"
+        url: "/tvshows"
+    },
+    {
+        title: "Search",
+        url: "/search"
+    },
+    {
+        title: "Account",
+        url: "/dashboard"
     },
     {
         title: "Login",

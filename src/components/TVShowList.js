@@ -4,15 +4,15 @@ import TVShow from "./TVShow";
 import MovieContext from "../context/MovieContext";
 
 const TVShowList = () => {
-    const {tvShows, setTVShows} = useContext(MovieContext);   
+    const {tvshows, setTVShows} = useContext(MovieContext);   
 
     useEffect(() => {
-      fetch("/tvShows")
+      fetch("http://localhost:5000/tvshows")
       .then((res) => {
         return res.json();
       })
       .then((tvShowsData) => {
-        setTVShows(tvShowsData);
+        setTVShows(tvShowsData.body);
       })
       .catch((err) => {
         console.log(`Error : ${err}`)
@@ -24,7 +24,7 @@ const TVShowList = () => {
         <div className = 'container'>
           <h2>List Of All TV Shows</h2>
           <div className = "display-grid-list">
-            {tvShows.map(tvShow=>(<TVShow key={tvShow.id} id={tvShow.id} title={tvShow.title} poster={tvShow.poster} />))}    
+            {tvshows.map(tvshow=>(<TVShow key={tvshow.id} id={tvshow.id} title={tvshow.title} poster={tvshow.poster} />))}    
           </div>
         </div>
       </section>
